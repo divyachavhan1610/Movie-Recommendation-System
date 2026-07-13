@@ -216,3 +216,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# TMDB API Key
+config.py
+
+# Large generated model file
+similarity.pkl
