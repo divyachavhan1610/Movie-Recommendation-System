@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 import requests
-from config import API_KEY
+API_KEY = st.secrets["API_KEY"]
 
 st.set_page_config(
     page_title="Movie Recommendation System",
